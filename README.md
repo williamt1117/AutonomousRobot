@@ -1,10 +1,14 @@
 # AutonomousRobot
 Code written for RobotC used to operate an autonomous robot that represents a dry-lab test of underwater ocean-sensor cleaning.
+
 <img width="354" alt="image" src="https://user-images.githubusercontent.com/92940760/196819655-0ab79fab-1219-437d-b7a5-216bdf8a8f68.png">
+
 [Figure 1] Isometric View of Robot
 
 Code functions off of phases all represented in Figure 2 below.
+
 <img width="826" alt="image" src="https://user-images.githubusercontent.com/92940760/196819549-382ea58c-55ee-43e8-85eb-c813cb3c4307.png">
+
 [Figure 2] FSM Diagram of robot
 
 ## Approaching Phase
