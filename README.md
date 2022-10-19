@@ -17,6 +17,8 @@ The approaching phase consists of a loop between approaching the target and faci
 <img width="701" alt="image" src="https://user-images.githubusercontent.com/92940760/196819490-1fd171e0-5405-4e97-8f64-52610d0f111a.png">
 [Figure 3] Rotate to target function implementation
 
+
+
 ##Proximity Adjustment Phase
 The proximity adjustment phase is used to account for the rolling of the robot due to inertia after the approaching phase ends using exclusively the ultrasonic range finder and drive wheels. This phase will immediately exit if the distance recorded by the ultrasonic sensor is exactly equal to the ideal target distance, 17cm. If the robot is further away than 17cm then it will drive forward slowly until the distance is equal to 17cm and vice versa for closer than 17cm. After this, the robot moves to the dropping phase. 
 
